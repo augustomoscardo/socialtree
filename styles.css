@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 300;
+  background-color: var(--body-bg-color);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 330px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.user {
+  margin-top: 70px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--purple);
+  padding: 4px;
+}
+
+.userName {
+  margin-top: 15px;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--purple);
+}
+
+.linkTree {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkTree ul {
+  width: 100%;
+}
+
+.linkTree ul:first-child {
+  margin-top: 30px;
+}
+
+.linkTree li {
+  list-style: none;
+  text-align: center;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+  padding: 12px 0;
+}
+
+.linkTree li + li {
+  margin-top: 16px;
+}
+
+.linkTree li a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--purple);
+
+  transition: filter 200ms;
+}
+
+.linkTree li a:hover {
+  filter: brightness(0.9);
+  text-decoration: underline;
+}
+
+.socialLinks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  margin-top: 70px;
+}
+
+.socialLinks a {
+  transition: filter 200ms;
+}
+
+.socialLinks a:hover {
+  filter: brightness(0.9);
+}
+
+@media (max-width: 380px) {
+  body {
+    overflow: initial;
+  }
+}
