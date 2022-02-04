@@ -1,5 +1,4 @@
-# Frontend Mentor - Intro component with sign-up form challenge hub
-
+# Rockeseat - Socialtree Challenge
 This is a solution to the [Socialtree](https://efficient-sloth-d85.notion.site/Desafio-Social-Tree-a4008e467a3248c4b05c97cf78aea44f) challenge on Rocketseat Discover.
 
 ## Getting Started
@@ -16,10 +15,6 @@ You can run Live Server, or copy index.html path and paste into the browser.
 - HMTL
 - CSS
 - JavaScript
-
-## URL to visit the application
-
-https://intro-component-swart.vercel.app/
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/augustomoscardo)
