@@ -14,7 +14,6 @@ You can run Live Server, or copy index.html path and paste into the browser.
 
 - HMTL
 - CSS
-- JavaScript
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/augustomoscardo)
